@@ -2,6 +2,8 @@
   "name": "vue-component-template",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
+  "author": "longo-andrea",
   "type": "module",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
