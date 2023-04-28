@@ -1,4 +1,8 @@
-# Vue Component Template
+<center>
+<h1>🛕 Vue Component Template</h1>
+<h2>Vue3 + Vite + TypeScript + Vitest + Vitepress + Storybook + ESLint + Prettier</h2>
+</center>
+
 
 Basic Vue3 component library template.
 
