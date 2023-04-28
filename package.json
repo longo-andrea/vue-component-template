@@ -38,6 +38,18 @@
         "default": "./dist/components/componentB/ComponentB.js"
       }
     },
+    "./utils/add/add": {
+      "import": {
+        "types": "./dist/utils/add/add.d.ts",
+        "default": "./dist/utils/add/add.js"
+      }
+    },
+    "./utils/multiply/multiply": {
+      "import": {
+        "types": "./dist/utils/multiply/multiply.d.ts",
+        "default": "./dist/utils/multiply/multiply.js"
+      }
+    },
     "./index.css": "./dist/index.css"
   }
 }
