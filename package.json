@@ -27,30 +27,6 @@
         "default": "./dist/index.js"
       }
     },
-    "./components/componentA/ComponentA": {
-      "import": {
-        "types": "./dist/components/componentA/ComponentA.vue.d.ts",
-        "default": "./dist/components/componentA/ComponentA.js"
-      }
-    },
-    "./components/componentB/ComponentB": {
-      "import": {
-        "types": "./dist/components/componentB/ComponentB.vue.d.ts",
-        "default": "./dist/components/componentB/ComponentB.js"
-      }
-    },
-    "./utils/add/add": {
-      "import": {
-        "types": "./dist/utils/add/add.d.ts",
-        "default": "./dist/utils/add/add.js"
-      }
-    },
-    "./utils/multiply/multiply": {
-      "import": {
-        "types": "./dist/utils/multiply/multiply.d.ts",
-        "default": "./dist/utils/multiply/multiply.js"
-      }
-    },
     "./index.css": "./dist/index.css"
   }
 }
