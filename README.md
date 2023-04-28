@@ -1,18 +1,65 @@
-# Vue 3 + TypeScript + Vite
+# Vue Component Template
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Basic Vue3 component library template.
 
-## Recommended IDE Setup
+   ⚒️ [Vite](https://vitejs.dev/) bundler
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+   🧱 [TypeScript](https://www.typescriptlang.org/) support
 
-## Type Support For `.vue` Imports in TS
+   🧪 [Vitest](https://vitest.dev/) unit test framework (coming soon)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+   📚 [VitePress](https://vitepress.dev/) documentation framework (coming soon)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+   📃 [Storybook](https://storybook.js.org/) playground (coming soon)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+# Getting Started
+
+## Usage
+
+```
+// Clone the template
+git clone https://github.com/longo-andrea/vue-component-template#readme
+
+// Install dependencies
+pnpm i
+```
+
+## Configuration
+
+After have clonet this template, update with your info:
+
+- [ ] Properties: `author`, `name` in `package.json`
+- [ ] Update package `name` in `vite.config.ts`
+- [ ] Update `LICENCE.md`
+- [ ] Clean up the `README.md`
+
+# Examples
+
+Develop your on components, then in the client application.
+
+```
+// Install the libray
+pnpm i vue-component-template (use your package name here)
+```
+
+Apply your global styles, in `main.ts`:
+```main.ts
+import { createApp } from 'vue'
+import App from './App.vue'
+import 'vue-component-template/index.css' // <- Global styling
+
+createApp(App).mount('#app')
+
+```
+
+Then import components when needed:
+
+```App.vue
+<script setup lang="ts">
+import { ComponentA } from 'vue-component-template';
+
+// ... your custom login
+</script>
+
+...
+```
