@@ -3,8 +3,7 @@
   "exclude": ["node_modules"],
   "include": [
     "src/**/*.ts",
-    "src/**/*.vue",
-    "vite.config.ts"
+    "src/**/*.vue"
   ],
   "compilerOptions": {
     "target": "esnext",
@@ -17,8 +16,6 @@
     "moduleResolution": "node",
     "strict": true,
     "sourceMap": true,
-    "emitDeclarationOnly": true,
-    "declarationDir": "./dist",
     "isolatedModules": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
