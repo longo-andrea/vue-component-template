@@ -10,7 +10,8 @@ export default defineConfig({
       entry: {
         index: './src/index.ts',
         'components/componentA/ComponentA': './src/components/componentA/ComponentA.vue',
-        'components/componentB/ComponentB': './src/components/componentB/ComponentB.vue'
+        'components/componentB/ComponentB': './src/components/componentB/ComponentB.vue',
+        'styles/index': './src/styles/index.scss'
       },
       name: 'vue-component-template',
       formats: ['es']

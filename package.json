@@ -37,6 +37,7 @@
         "types": "./dist/components/componentB/ComponentB.vue.d.ts",
         "default": "./dist/components/componentB/ComponentB.js"
       }
-    }
+    },
+    "./index.css": "./dist/index.css"
   }
 }
