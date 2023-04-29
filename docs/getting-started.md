@@ -32,10 +32,10 @@ pnpm i
 
 After have clonet this template, update with your info:
 
-- [ ] Properties: `author`, `name` in `package.json`
-- [ ] Update package `name` in `vite.config.ts`
-- [ ] Update `LICENCE.md`
-- [ ] Clean up the `README.md`
+- Properties: `author`, `name` in `package.json`
+- Update package `name` in `vite.config.ts`
+- Update `LICENCE.md`
+- Clean up the `README.md`
 
 # Examples
 
