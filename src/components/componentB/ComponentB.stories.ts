@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/vue3';
-import ComponentB from './ComponentB.vue';
+import type { Meta, StoryObj } from '@storybook/vue3'
+import ComponentB from './ComponentB.vue'
 
 const meta = {
   title: 'Components/ComponentB',
@@ -7,7 +7,7 @@ const meta = {
   render: (args: any) => ({
     components: { ComponentB },
     setup() {
-      return { args };
+      return { args }
     },
     template: '<ComponentB :message=args.message></ComponentB>',
   }),
@@ -15,13 +15,13 @@ const meta = {
     layout: 'fullscreen',
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof ComponentB>;
+} satisfies Meta<typeof ComponentB>
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+export default meta
+type Story = StoryObj<typeof meta>
 
 export const WithMessage: Story = {
   args: {
     message: 'My custom message',
   },
-};
+}
