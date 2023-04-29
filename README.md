@@ -1,20 +1,20 @@
-<center>
+<div align="center">
 <h1>🛕 Vue Component Template</h1>
 <h2>Vue3 + Vite + TypeScript + Vitest + Vitepress + Storybook + ESLint + Prettier</h2>
-</center>
+</div>
 
 
 Basic Vue3 component library template.
 
-   ⚒️ [Vite](https://vitejs.dev/) bundler
+   ⚡️ Faster builds with [Vite](https://vitejs.dev/) bundler
 
-   🧱 [TypeScript](https://www.typescriptlang.org/) support
+   ⚒️ [TypeScript](https://www.typescriptlang.org/) support
 
-   🧪 Fast test with [Vitest](https://vitest.dev/) and [Vue Test Utils](https://test-utils.vuejs.org/)
+   🧪 Faster tests with [Vitest](https://vitest.dev/) and [Vue Test Utils](https://test-utils.vuejs.org/)
 
-   📚 [VitePress](https://vitepress.dev/) documentation framework (coming soon)
+   📚 Easy library documentation with [VitePress](https://vitepress.dev/) framework (coming soon)
 
-   📃 [Storybook](https://storybook.js.org/) playground (coming soon)
+   📃 Comprehensive playgrounds and tests with [Storybook](https://storybook.js.org/) (coming soon)
 
 # Getting Started
 
