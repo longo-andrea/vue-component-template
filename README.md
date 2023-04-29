@@ -10,7 +10,7 @@ Basic Vue3 component library template.
 
    🧱 [TypeScript](https://www.typescriptlang.org/) support
 
-   🧪 [Vitest](https://vitest.dev/) unit test framework (coming soon)
+   🧪 Fast test with [Vitest](https://vitest.dev/) and [Vue Test Utils](https://test-utils.vuejs.org/)
 
    📚 [VitePress](https://vitepress.dev/) documentation framework (coming soon)
 
