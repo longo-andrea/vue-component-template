@@ -31,3 +31,7 @@ export default {
 ```
 
 In the example above, the `ComponentA` is imported and then used in the template. It is passed a message prop and some slot content. The component will render a div with a grey background and black text, and display the slot content along with the message "Hello World!" in a paragraph tag. The styling for the component is defined in a SCSS style block.
+
+# Storybook Embed
+
+<iframe src="http://localhost:6006/?path=/docs/components-componenta--docs" width="800" height="400" />

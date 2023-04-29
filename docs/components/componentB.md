@@ -32,3 +32,7 @@ export default {
 ```
 
 In the example above, the `ComponentB` is imported and then used in the template. It is passed a message prop of "Hello World!". The component will render a div with a paragraph tag that displays the computed message "Your message is: Hello World!".
+
+# Storybook Embed
+
+<iframe src="http://localhost:6006/?path=/docs/components-componentb--docs" width="800" height="400" />
