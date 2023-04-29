@@ -7,16 +7,29 @@ const props = defineProps<ComponentAProps>()
 </script>
 
 <template>
-    <div class="compomnentA">
-        <slot/>
+    <div class="component-a">
+        <div class="component-a__slot">
+            <slot/>
+        </div>
 
-        <p>{{ props.message }}</p>
+        <p class="component-a__message">{{ props.message }}</p>
     </div>
 </template>
 
 <style lang="scss">
-.componentA {
-    background: grey;
-    color:black;
+.component-a {
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    background: hsl(0, 0%, 98%);
+
+    &__slot {
+        font-weight: bold;
+    }
+
+    &__message {
+        opacity: .7;
+    }
 }
 </style>

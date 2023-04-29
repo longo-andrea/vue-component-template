@@ -9,7 +9,14 @@ const composedMessage = computed(() => `Your message is: ${props.message}`)
 </script>
 
 <template>
-    <div>
-        <p>{{ composedMessage }}</p>
+    <div class="component-b">
+        <p class="component-b__style">{{ composedMessage }}</p>
     </div>
 </template>
+
+<style lang="scss">
+.component-b {
+    margin: 8px;
+    text-decoration: underline;
+}
+</style>
