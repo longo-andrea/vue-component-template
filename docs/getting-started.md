@@ -14,7 +14,7 @@ Basic Vue3 component library template.
 
    📚 Easy library documentation with [VitePress](https://vitepress.dev/) framework
 
-   📃 Comprehensive playgrounds and tests with [Storybook](https://storybook.js.org/) (coming soon)
+   📃 Comprehensive playgrounds and tests with [Storybook](https://storybook.js.org/)
 
 # Getting Started
 
